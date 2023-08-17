@@ -1,0 +1,29 @@
+// How to Calculate the SImple interest.
+import java.util.Scanner;
+class Test1{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Price:");
+        int P=sc.nextInt();  // P -> stands for PRINCIPLE
+
+        System.out.println("Enter the Rate:");
+        int R=sc.nextInt();    // R -> stands for RATE
+
+        System.out.println("Enter the Time Number:");
+        int T=sc.nextInt();  // T -> stands for Time
+
+        int SI=P*R*T/100;  //SI -> Sands for Simple Interest.
+        System.out.println("Result:"+SI);
+    }
+}
+
+█▓▒▒░░░OᑌTᑭᑌT░░░▒▒▓█
+
+Enter the Price:
+1000
+Enter the Rate:
+5
+Enter the Time Number:
+2
+Result:100
