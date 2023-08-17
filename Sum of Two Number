@@ -14,3 +14,11 @@ class Test1{
         System.out.println("Result:"+sum);
     }
 }
+
+█▓▒▒░░░OᑌTᑭᑌT░░░▒▒▓█
+
+Enter the First Number:
+5
+Enter the First Number:
+5
+Result:10
